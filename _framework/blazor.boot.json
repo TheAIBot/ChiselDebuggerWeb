@@ -25,7 +25,7 @@
       "Rubjerg.Graphviz.dll": "sha256-3T9YRI4PQEspmMm+EtWFdhJwfCSdNSRoVJNn4v\/6eVU=",
       "System.IO.Pipelines.dll": "sha256-CKC3Rxb5+RpzlG2ILu+9CrI+R13vWDLLhNEsm6UDxK8=",
       "ChiselDebug.dll": "sha256-TaHy26pS46QXsgEZH\/QnnrV5F1xT92B9a1WfjQEbiwQ=",
-      "ChiselDebuggerRazor.dll": "sha256-23H2yps\/FZZxrJeHTtAnnxYt4LIstrgVrj7I0fCGjRY=",
+      "ChiselDebuggerRazor.dll": "sha256-Zu6Lc9ZunhU4eSUHkg\/qFHklYZT3SWx8Rjztw9hSMik=",
       "FIRRTL.dll": "sha256-Xnw3l6stUS2hIqHZ6wyP0rFeGquQkJKm756Lr96nUmU=",
       "PriorityQueue.dll": "sha256-sTX3XQrXiAT30GpKwu9GQujU6rnxMaV3ScNAYB4hbOQ=",
       "VCDReader.dll": "sha256-Fb2H7kxjMLX4tKJGt0NCNuT5Ygg8Wezf1vwpFtoLAwg=",
@@ -86,8 +86,8 @@
       "library_mono.js": "sha256-Gp9da5x1UGTlETp1D3dlrqqV+UEb7MPjdfdtwTmZ28w=",
       "pal_random.js": "sha256-v4\/eLlpYE4zerV6MEeNFhxtqGx0tgJmUCQiYtCI0qv0=",
       "pinvoke.c": "sha256-hbkNQPz9HtrSlEf8o3Oo99CP0l+BwwkwVe1\/Ji1b1yQ=",
-      "dotnet.6.0.0-preview.5.21301.5.js": "sha256-CR6194OyZBiQqin3BKOv54HQ91ktjyTeVXJAyK0XdD4=",
-      "dotnet.wasm": "sha256-kcKhrH4riuHPtElqQ5PxPZB+Hvv8\/QBImp\/mwcpxvY4="
+      "dotnet.6.0.0-preview.5.21301.5.js": "sha256-JsClLhmM0v+gT62aUJw8\/BpLgQ7X+a96+g38YAiW\/CQ=",
+      "dotnet.wasm": "sha256-\/S\/5YBffyv839BOlrxRGJLkMakixOX8uubtwjPByL6M="
     },
     "satelliteResources": null
   }
