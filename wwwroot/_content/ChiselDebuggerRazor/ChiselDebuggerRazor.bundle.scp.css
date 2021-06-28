@@ -1,0 +1,506 @@
+@import '';
+
+/* _content/ChiselDebuggerRazor/Pages/CircuitViewer.razor.rz.scp.css */
+.Circuit[b-fccoqwt49q] {
+    position: relative;
+    transform-origin: 0 0;
+}
+
+.chisel-error-ui[b-fccoqwt49q] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    white-space: pre-line;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.unknown-error-ui[b-fccoqwt49q] {
+    background: indianred;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    white-space: pre-line;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.dismiss[b-fccoqwt49q] {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/BiArgMonoResPrimOpUI.razor.rz.scp.css */
+.primOp[b-sy0vi3qkv1] {
+    position: absolute;
+    display: inline-block;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    font-family: monospace;
+    line-height: 1;
+}
+
+.primOp tr[b-sy0vi3qkv1] {
+    text-align: right;
+}
+
+.primOp tr:last-of-type td[b-sy0vi3qkv1] {
+    text-decoration: overline;
+}
+
+.primOpSymbol[b-sy0vi3qkv1] {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/ConditionalUI.razor.rz.scp.css */
+.conditional[b-3sz8tnn4q1] {
+    position: absolute;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/ConstBitRangeUI.razor.rz.scp.css */
+.bitRange[b-trvfiyn09g] {
+    position: absolute;
+    display: inline-block;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    text-align: center;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/IOUI/IOPortUI.razor.rz.scp.css */
+.ioDot[b-f3equ6yhyo] {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #aaa;
+    border-radius: 50%;
+    z-index: 1;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/IOUI/IOWindowUI.razor.rz.scp.css */
+.ioDescription[b-5l4lq6qsdx] {
+    position: fixed;
+    transform: translateX(6px);
+    white-space: nowrap;
+    font-family: monospace;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    z-index: 100;
+}
+
+td[b-5l4lq6qsdx] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+tr td:last-child[b-5l4lq6qsdx] {
+    border-left: 1px solid gray;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/IOUI/ScopedIOPortUI.razor.rz.scp.css */
+.ioDot[b-d55uljfm0h] {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    background-color: #aaa;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.ioName[b-d55uljfm0h] {
+    position: absolute;
+    transform: translate(6px, -50%);
+    white-space: nowrap;
+}
+
+.ioNameRev[b-d55uljfm0h] {
+    position: absolute;
+    transform: translate(calc(-100% - 6px), -50%);
+    white-space: nowrap;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/IOUI/ScopedIOUI.razor.rz.scp.css */
+.ioScope[b-wwqcouspnz] {
+    position: absolute;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/MemoryUI.razor.rz.scp.css */
+.memory[b-4j1uzgan36] {
+    position: absolute;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    text-align: center;
+}
+
+.memoryName[b-4j1uzgan36] {
+    padding: 5px;
+    line-height: 1;
+    font-weight: bold;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/ModuleUI.razor.rz.scp.css */
+.module[b-wglauh9iy6] {
+    position: absolute;
+    display: inline-block;
+    outline: 4px solid blue;
+    outline-offset: -2px;
+}
+
+.moduleHeader[b-wglauh9iy6] {
+    position: absolute;
+    text-align: center;
+    color: #6b6b6b;
+}
+
+.moduleContent[b-wglauh9iy6] {
+    position: relative;
+    transform-origin: 0 0;
+    width: 100%;
+    height: 100%;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/MonoArgPrimOpUI.razor.rz.scp.css */
+.primOp[b-rb0jju36ju] {
+    position: absolute;
+    display: inline-block;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    font-family: monospace;
+    line-height: 1;
+}
+
+.primOp tr[b-rb0jju36ju] {
+    text-align: right;
+}
+
+.primOp tr:last-of-type td[b-rb0jju36ju] {
+    text-decoration: overline;
+}
+
+.primOpSymbol[b-rb0jju36ju] {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/MuxOp.razor.rz.scp.css */
+.muxShape[b-ysoldhrrwj] {
+    border-left: 25px solid #555;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    width: 0;
+}
+
+.muxContainer[b-ysoldhrrwj] {
+    position: absolute;
+    display: inline-block;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/RegisterUI.razor.rz.scp.css */
+.register[b-m8g3ux04jo] {
+    position: absolute;
+    display: inline-block;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    text-align: center;
+}
+
+.registerName[b-m8g3ux04jo] {
+    padding: 5px;
+    line-height: 1;
+    font-weight: bold;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/StopUI.razor.rz.scp.css */
+.stop[b-ochjh74l4y] {
+    position: absolute;
+    display: inline-block;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    text-align: center;
+}
+
+.stopName[b-ochjh74l4y] {
+    padding: 5px;
+    line-height: 1;
+    font-weight: bold;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/VectorAssignUI.razor.rz.scp.css */
+.vectorAssign[b-uvyqhys24t] {
+    position: absolute;
+    display: inline-block;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    text-align: center;
+}
+
+.vectorAssignName[b-uvyqhys24t] {
+    padding: 5px;
+    line-height: 1;
+    font-weight: bold;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/WiresUI.razor.rz.scp.css */
+.wiresContainer[b-n1x3u4wocx] {
+    position: absolute;
+    overflow: visible;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.wire[b-n1x3u4wocx] {
+    stroke-width: 2;
+}
+
+.wireHoverArea[b-n1x3u4wocx] {
+    stroke: white;
+    stroke-opacity: 0.01;
+    stroke-width: 10;
+}
+
+.wireConnection[b-n1x3u4wocx] {
+    stroke-width: 4;
+    stroke-linecap: round;
+}
+
+.wireElement[b-n1x3u4wocx] {
+    stroke: black;
+}
+
+.wireGroup[b-n1x3u4wocx] {
+    pointer-events: auto;
+}
+
+.wireGroup:hover > .wireElement[b-n1x3u4wocx] {
+    stroke: orange !important;
+}
+/* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/WireUI.razor.rz.scp.css */
+.wire[b-ywme6sjhp0] {
+    position: absolute;
+    display: inline-block;
+    outline: 2px solid black;
+    outline-offset: -1px;
+    text-align: center;
+}
+
+.wireName[b-ywme6sjhp0] {
+    padding: 5px;
+    line-height: 1;
+    font-weight: bold;
+}
+/* _content/ChiselDebuggerRazor/Pages/TimelineUI.razor.rz.scp.css */
+.sideBySide[b-hyv9cdx68l] {
+    display: flex;
+    flex-direction: row;
+}
+
+.timelineControlsContent[b-hyv9cdx68l] {
+    flex-grow: 1;
+    width: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.timelineRangeContent[b-hyv9cdx68l] {
+    flex-grow: 1;
+    width: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.timelineTimeInput[b-hyv9cdx68l] {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.timelineButton[b-hyv9cdx68l] {
+    flex-grow: 1;
+    cursor: pointer;
+    border: thin solid #000000;
+    border-radius: 3px;
+    background-color: #b2b2b2;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.rangeSelect[b-hyv9cdx68l] {
+    min-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.rangeStart[b-hyv9cdx68l] {
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #808080;
+    border-right: thin solid #000000;
+}
+
+.rangeStop[b-hyv9cdx68l] {
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #808080;
+    border-left: thin solid #000000;
+}
+
+.timeline[b-hyv9cdx68l] {
+    width: 100%;
+}
+
+.ticksPadding[b-hyv9cdx68l] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ticksList[b-hyv9cdx68l] {
+    width: 100%;
+    position: relative;
+    height: 2em;
+}
+
+tick[b-hyv9cdx68l] {
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    line-height: 2em;
+}
+/* _content/ChiselDebuggerRazor/Shared/MainLayout.razor.rz.scp.css */
+.page[b-hraiyqt72f] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-hraiyqt72f] {
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar[b-hraiyqt72f] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-hraiyqt72f] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-hraiyqt72f]  a, .top-row .btn-link[b-hraiyqt72f] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-hraiyqt72f] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-hraiyqt72f] {
+        display: none;
+    }
+
+    .top-row.auth[b-hraiyqt72f] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-hraiyqt72f], .top-row .btn-link[b-hraiyqt72f] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-hraiyqt72f] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-hraiyqt72f] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-hraiyqt72f] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-hraiyqt72f] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/ChiselDebuggerRazor/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-wkheepi1qp] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-wkheepi1qp] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-wkheepi1qp] {
+    font-size: 1.1rem;
+}
+
+.oi[b-wkheepi1qp] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-wkheepi1qp] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-wkheepi1qp] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-wkheepi1qp] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-wkheepi1qp]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-wkheepi1qp]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-wkheepi1qp]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-wkheepi1qp] {
+        display: none;
+    }
+
+    .collapse[b-wkheepi1qp] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
