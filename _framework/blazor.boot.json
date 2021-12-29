@@ -8,9 +8,9 @@
   "resources": {
     "assembly": {
       "Antlr4.Runtime.dll": "sha256-7821\/8eUHyPmPVYKBxRn6\/8xfINx\/o7\/+WiQOsGGb7E=",
-      "ChiselDebug.dll": "sha256-6zv+gstR0uvwoKwuETQWBXUEZJosYCgqtfJ62VfBv6M=",
-      "ChiselDebuggerRazor.dll": "sha256-cl5ZvD4UXoY039hhhwkmLOFwXShnEWI4hWV75tY+aI4=",
-      "ChiselDebuggerWebAsmUI.dll": "sha256-yIRROqP5aV5eZA1VFq0c2xclBDDjsyMVeHf3b9Kl7KU=",
+      "ChiselDebug.dll": "sha256-RLR9NXVejRceXFnDqUVevkaqp6niLNgiQwsH95\/qQBQ=",
+      "ChiselDebuggerRazor.dll": "sha256-HByzJDlSkhzxNtGdYwQ\/398cWL\/GzGNzQbM9IeiVCps=",
+      "ChiselDebuggerWebAsmUI.dll": "sha256-pSnWWWuVxax6RQXveMRtQ9OS0Fo3WvaAg2ELiIDVbwo=",
       "FIRRTL.dll": "sha256-RvzX1gVP7PVvlbNheRPMKQbvl4r8VeP++fO+3fndllI=",
       "Microsoft.AspNetCore.Components.dll": "sha256-LMQYVjuZm1KDSB+WQwXz0NosVhYSVdX7XoWF34iFCA0=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-IzLyoMKa+pe9Zy42XVKqyobdhlA7lL8JjyD7sKwTB6g=",
@@ -68,9 +68,9 @@
     "libraryInitializers": null,
     "pdb": null,
     "runtime": {
-      "dotnet.6.0.1.bnzpoyxbdg.js": "sha256-uriqZMrtW12QkA4PympQq7x5zs2kkqD3RTzRM98jS00=",
+      "dotnet.6.0.1.bnzpoyxbdg.js": "sha256-2UPQ\/5zhMj1kRZkBLCcEc7ngIeW6QwXU1DOFK5IaUvI=",
       "dotnet.timezones.blat": "sha256-2kYo2V\/aZ7htYEvY5PVJlrMYhFf1jH8\/VS+SP7B7QUg=",
-      "dotnet.wasm": "sha256-w565myW\/B6\/tO9WQKR+YX\/EMNGk5OuKR4ZYyRzrDhP8=",
+      "dotnet.wasm": "sha256-BQVvX\/cpH\/Xq1TwilCZmeun3uQco5mdUM4wjml46xnE=",
       "icudt.dat": "sha256-Zuq0dWAsBm6\/2lSOsz7+H9PvFaRn61KIXHMMwXDfvyE=",
       "icudt_CJK.dat": "sha256-WPyI4hWDPnOw62Nr27FkzGjdbucZnQD+Ph+GOPhAedw=",
       "icudt_EFIGS.dat": "sha256-4RwaPx87Z4dvn77ie\/ro3\/QzyS+\/gGmO3Y\/0CSAXw4k=",
