@@ -1,5 +1,3 @@
-@import '';
-
 /* _content/ChiselDebuggerRazor/Pages/CircuitViewer.razor.rz.scp.css */
 .Circuit[b-fccoqwt49q] {
     position: relative;
@@ -155,8 +153,6 @@ tr td:last-child[b-5l4lq6qsdx] {
 .moduleContent[b-wglauh9iy6] {
     position: relative;
     transform-origin: 0 0;
-    width: 100%;
-    height: 100%;
 }
 /* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/MonoArgPrimOpUI.razor.rz.scp.css */
 .primOp[b-rb0jju36ju] {
@@ -238,7 +234,6 @@ tr td:last-child[b-5l4lq6qsdx] {
 /* _content/ChiselDebuggerRazor/Pages/FIRRTLUI/WiresUI.razor.rz.scp.css */
 .wiresContainer[b-n1x3u4wocx] {
     position: absolute;
-    overflow: visible;
     top: 0;
     left: 0;
     width: 100%;
