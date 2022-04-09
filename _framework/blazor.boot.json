@@ -3,7 +3,7 @@
   "config": [ ],
   "debugBuild": false,
   "entryAssembly": "ChiselDebuggerWebAsmUI",
-  "icuDataMode": 0,
+  "icuDataMode": 2,
   "linkerEnabled": true,
   "resources": {
     "assembly": {
@@ -60,7 +60,7 @@
       "System.Net.Primitives.dll": "sha256-+fW6GVnABG+lE3ZIxwW0pjuN0Pt4CXZfj7pzKwt1hgs=",
       "System.Net.WebSockets.dll": "sha256-do+NsNLZZmKHA80BmKGxmmx0TgRDR\/PQw3fvTOi3R7Y=",
       "System.ObjectModel.dll": "sha256-W6ncjLz00RoLoHjxe03lQ\/HkCFzoEikFUZPiSrTqM8c=",
-      "System.Private.CoreLib.dll": "sha256-8ywVUzyJjKDcTrXKbCFBGD5XZdqmFZ46HLG4IcfFS9Q=",
+      "System.Private.CoreLib.dll": "sha256-4kIA7Ts5lU4acAn0Iq0J2sDakd+4+dkIGWoVv\/ZF0nw=",
       "System.Private.Runtime.InteropServices.JavaScript.dll": "sha256-rS17LtflxuDvrIyqZ2tjIFzHOr8V4Vg4UxD4pwokkM0=",
       "System.Private.Uri.dll": "sha256-EnkaYBbuT+yNPRyQNVjiXisuJUOq7GJGRUrRzJtkQ3E=",
       "System.Reflection.dll": "sha256-TnxF5Ur8KHVh0Vz50E7DeLul8UnM3RGzmBbLGGKneUA=",
@@ -88,13 +88,8 @@
     "libraryInitializers": null,
     "pdb": null,
     "runtime": {
-      "dotnet.6.0.3.bnzpoyxbdg.js": "sha256-BKGwJdemTgslI9eHiZ9YCUjptH3N\/JVWhpoIm1KNlPI=",
-      "dotnet.timezones.blat": "sha256-scXGarUHqfFWPq0d6kt1FgrQvd1\/ndIwUTFptznHbsc=",
-      "dotnet.wasm": "sha256-p6eKHQAzCAowVOFdVeOZANh9duxx+RGanE9+h9Cb1Y8=",
-      "icudt.dat": "sha256-Zuq0dWAsBm6\/2lSOsz7+H9PvFaRn61KIXHMMwXDfvyE=",
-      "icudt_CJK.dat": "sha256-WPyI4hWDPnOw62Nr27FkzGjdbucZnQD+Ph+GOPhAedw=",
-      "icudt_EFIGS.dat": "sha256-4RwaPx87Z4dvn77ie\/ro3\/QzyS+\/gGmO3Y\/0CSAXw4k=",
-      "icudt_no_CJK.dat": "sha256-OxylFgLJlFqixsj+nLxYVsv5iZLvfIKMpLf9hrWaChA="
+      "dotnet.6.0.3.bnzpoyxbdg.js": "sha256-xfaFFraVSyGI0zfspAVteVOXBzc2ibMx5AldTEMkKeo=",
+      "dotnet.wasm": "sha256-JYnquowhqX8YDlb8AxouqkCx858eJBJWkehvpdNgYuE="
     },
     "satelliteResources": null
   }
